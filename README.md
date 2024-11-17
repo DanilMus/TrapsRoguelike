@@ -3,18 +3,18 @@
 ### Алгоритм генерации комнат:
 Если кратко, то он основан на квадратах и направлениях. 
 1. Созадется начальный квадрат с 3 направлениями
-![alt text](image-1.png)
+![alt text](ImagesForReadme/image-1.png)
 2. Случайным образом выбирается одно из направлений
-![alt text](image.png)
+![alt text](ImagesForReadme/image.png)
 3. И так дальше выбирается дальше, пока не закончится все возможное количество квадратов. Квадраты, кстати, бывают разных типов: начальный, конечные, простой без ловушек, и с ловушками.
-![alt text](image-2.png)
+![alt text](ImagesForReadme/image-2.png)
 4. Конечно, может случиться, такое, что квадрат перекроет другой квадрат, в таком случае удалется тот, который поставили, и снова стороиться, и снова запускается проверка на перекрытие.
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](ImagesForReadme/image-3.png)
+![alt text](ImagesForReadme/image-4.png)
 5. Когда все нужные плиты построены, выбирается место для плиты-конца, которая либо ведет к следующим уровням, либо заканчивает игру.
-![alt text](image-5.png)
+![alt text](ImagesForReadme/image-5.png)
 6. Потом уже строиются стены вокруг незанятых стрелочек. 
-![alt text](image-6.png)
+![alt text](ImagesForReadme/image-6.png)
 Таким образом, получается довольно разнообразные уровни.
 
 ### Принцип увелечения сложности уровней
@@ -22,9 +22,9 @@
 
 ### Сверх дополнения
 Добавлена крутая статическая ловушка, которая вытаскивает шипы:
-![alt text](image-9.png)
-![alt text](image-8.png)
-![alt text](image-7.png)
+![alt text](ImagesForReadme/image-9.png)
+![alt text](ImagesForReadme/image-8.png)
+![alt text](ImagesForReadme/image-7.png)
 
 ### Ссылки на готовые проекты
 - Собственно только одна [ссылка](https://sketchfab.com/3d-models/spike-trap-hide-animation-6c9d025f89cd4f80a215d49adc73c5c3) на анимацию шипов. Собственно кода там и не было. 
